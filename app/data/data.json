@@ -1,0 +1,19 @@
+[{
+	"id": "a",
+	"image": "img/img1.jpg",
+	"brand_title": "Adam Curtis",
+	"episode_title": "HyperNormalisation",
+	"category": "Film"
+}, {
+	"id": "b",
+	"image": "img/img2.jpg",
+	"brand_title": "Adam Curtis with more descriptive title",
+	"episode_title": "HyperNormalisation with a more descriptive title",
+	"category": "Film"
+}, {
+	"id": "c",
+	"image": "img/img3.jpg",
+	"brand_title": "Adam Curtis",
+	"episode_title": "HyperNormalisation with a more descriptive title",
+	"category": "Film"
+}]

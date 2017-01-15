@@ -1,0 +1,22 @@
+{
+  "name": "ab-testing",
+  "version": "1.0.0",
+  "description": "a little application to switch content for a/b testing purposes",
+  "main": "index.html?a",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaquelPlaza/ab-testing.git"
+  },
+  "author": "Raquel Plaza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaquelPlaza/ab-testing/issues"
+  },
+  "homepage": "https://github.com/RaquelPlaza/ab-testing#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
