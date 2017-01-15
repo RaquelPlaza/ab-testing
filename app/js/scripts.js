@@ -1,8 +1,8 @@
 // javascript 
 document.addEventListener('DOMContentLoaded', function() {
 /**
- * @param  {[type]}
- * @return {[type]}
+ * @param  {string}
+ * @return {null}
  */
  function getData(variant) {
  	var xhttp = new XMLHttpRequest();
@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
  	xhttp.send();
 
 /**
- * @param  {[type]}
- * @param  {[type]}
- * @return {[type]}
+ * @param  {string}
+ * @param  {object}
+ * @return {null}
  */
  function replaceElements(variant, data) {
  	var variant = variant;
@@ -49,31 +49,30 @@ document.addEventListener('DOMContentLoaded', function() {
  			imageTagSourceSource.setAttribute("srcset", image_path);
  			imageTagImgSource.setAttribute("srcset", image_path);
  		}
-
-
  	}
- 	
-
  }
 
 }
 
 
 /**
- * @param  {[type]}
- * @return {[type]}
+ * @param  {string}
+ * @return {string}
  */
  function getParameterByName(name) {
  	var url = window.location.href;
  	var name = name.replace(/[\[\]]/g, "\\$&");
  	var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
  	results = regex.exec(url);
+ 	console.log(results);
  	if (!results) return null;
  	if (!results[2]) return '';
  	return decodeURIComponent(results[2].replace(/\+/g, " "));
  }
 
+
  var variant = getParameterByName('variant');
  getData(variant);
+
 
 });
