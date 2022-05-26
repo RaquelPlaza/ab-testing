@@ -13,7 +13,7 @@ Clone this project to your local disk.
 
 Open a comand/terminal window and navigate to your local repository.
 
-Run mpn-install in the comand line.
+Run npm-install in the comand line.
 
 This application uses http-server (https://www.npmjs.com/package/http-server).
 
